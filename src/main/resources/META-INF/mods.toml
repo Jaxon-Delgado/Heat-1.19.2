@@ -1,0 +1,25 @@
+modLoader="javafml" #mandatory
+loaderVersion="[43,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+license="MIT License"
+[[mods]] #mandatory
+modId="heat" #mandatory
+version="0.1-1.19.2" #mandatory
+displayName="Heat!" #mandatory
+logoFile="heat.png" #optional
+credits="Thank you to McJty and Kaupenjoe for the tutorials!" #optional
+authors="Jaxx" #optional
+description='''
+A simple mod that brings real world heat mechanics into Minecraft for forging and smelting items!
+'''
+[[dependencies.heat]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[43,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.heat]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2,1.20)"
+    ordering="NONE"
+    side="BOTH"

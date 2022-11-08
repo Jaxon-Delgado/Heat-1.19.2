@@ -1,5 +1,6 @@
 package com.jaxx.heat;
 
+import com.jaxx.heat.block.ModBlocks;
 import com.jaxx.heat.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.common.MinecraftForge;
@@ -20,6 +21,7 @@ public class Heat {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

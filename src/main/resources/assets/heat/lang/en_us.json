@@ -2,5 +2,7 @@
   "item.heat.forge_iron": "Forge Iron",
   "item.heat.raw_forge_iron": "Raw Forge Iron",
 
+  "block.heat.forge_iron_block": "Forge Iron Block",
+
   "itemGroup.heattab": "Heat!"
 }

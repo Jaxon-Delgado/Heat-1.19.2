@@ -14,8 +14,11 @@ public class ModItems {
 
     public static final RegistryObject<Item> FORGE_IRON = ITEMS.register("forge_iron",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HEAT_TAB)));
-    public static final RegistryObject<Item> RAW_FORGE_IRON = ITEMS.register("raw_forge_iron",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HEAT_TAB)));
+
+    public static final RegistryObject<Item> FORGE_HAMMER = ITEMS.register("forge_hammer",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HEAT_TAB)
+                    .durability(1800)
+                    .stacksTo(1)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

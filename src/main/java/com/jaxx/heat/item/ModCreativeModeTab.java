@@ -7,7 +7,7 @@ public class ModCreativeModeTab {
     public static final CreativeModeTab HEAT_TAB = new CreativeModeTab("heattab") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(ModItems.RAW_FORGE_IRON.get());
+            return new ItemStack(ModItems.FORGE_HAMMER.get());
         }
     };
 }
